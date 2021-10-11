@@ -55,17 +55,17 @@ a:hover {
   color: white
 }
 
-header {
+.header-one {
   text-align: center;
   background: url('images/newbackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+.header-one {
   line-height: 1.5;
 }
-header .profile-image {
+.header-one .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -73,7 +73,7 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image:hover {
+.header-one .profile-image:hover {
   transform: scale(1.4) rotate(365deg);
 }
 .tag {
@@ -89,8 +89,8 @@ header .profile-image:hover {
   color: greenyellow;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  margin: 10px;
+  padding: 10px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
@@ -199,3 +199,12 @@ a.social:hover {
 
 }
 
+  .title {
+    text-align: center;
+    padding-top: 130px;
+  }
+
+  .resize {
+    width: 400px;
+    height: auto;
+}
